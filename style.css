@@ -1,0 +1,62 @@
+.grid-container{
+    background-color: gray;
+    display:grid;
+    grid-template-columns: repeat(3,30%);
+    gap:15px;
+    font-size:1.5rem;
+    height:500px;
+    width:100%;
+}
+.grid-item{
+    display:grid;
+    grid-row:1/span 4;
+    background-color: red;
+    text-align: center;
+    place-items: center;
+}
+.grid-item-one{
+    display:grid;
+    background-color: orange;
+    text-align: center;
+    place-items: center;
+}
+.grid-item-two{
+    display:grid;
+    background-color:blue;
+    place-items: center;
+    text-align: center;
+}
+.grid-item-three{
+    display:grid;
+    background-color:yellow;
+    place-items:center;
+    text-align:center;
+}
+.grid-item-four{
+    display:grid;
+    background-color:pink;
+    place-items:center;
+    text-align:center;
+}
+.grid-item-five{
+    display:grid;
+grid-column:1/-1;
+grid-column-start: 2;
+place-items: center;
+text-align:center;
+background-color:purple;
+}
+.grid-item-six{ 
+    display:grid;
+    grid-column: 1/2;
+    grid-column-start: 2;
+    place-items: center;
+    text-align:center;
+    background-color:green;
+}
+.grid-item-seven{
+    display:grid;
+    place-items:center;
+    text-align:center;
+    background-color:greenyellow;
+}
